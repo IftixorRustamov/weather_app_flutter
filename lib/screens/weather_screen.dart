@@ -19,11 +19,7 @@ class WeatherScreen extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [
-            Color(0xFF1E3C72), // Dark blue at the top
-            Colors.blue, // Light blue at the bottom
-            Colors.blueAccent, // Medium blue in the middle
-          ],
+          colors: [Color(0xFF1E3C72), Colors.blue, Colors.blueAccent],
         ),
       ),
       child: Scaffold(
